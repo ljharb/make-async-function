@@ -6,7 +6,8 @@
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"tests-only": "node test",
+		"test": "npm run tests-only"
 	},
 	"repository": {
 		"type": "git",
@@ -31,6 +32,7 @@
 	"homepage": "https://github.com/ljharb/make-async-function#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^12.2.1",
-		"eslint": "^4.6.1"
+		"eslint": "^4.6.1",
+		"tape": "^4.8.0"
 	}
 }
