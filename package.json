@@ -4,10 +4,13 @@
 	"description": "Function that returns an arbitrary `async function`, or undefined if `async function` syntax is unsupported.",
 	"main": "./",
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
 		"tests-only": "node test",
-		"test": "npm run tests-only"
+		"test": "npm run tests-only",
+		"posttest": "npm run security",
+		"security": "nsp check"
 	},
 	"repository": {
 		"type": "git",
@@ -33,6 +36,8 @@
 	"devDependencies": {
 		"@ljharb/eslint-config": "^12.2.1",
 		"eslint": "^4.6.1",
+		"nsp": "^2.7.0",
+		"safe-publish-latest": "^1.1.1",
 		"tape": "^4.8.0"
 	}
 }
