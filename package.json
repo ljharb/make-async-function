@@ -1,0 +1,30 @@
+{
+	"name": "make-async-function",
+	"version": "0.0.0",
+	"description": "Function that returns an arbitrary `async function`, or undefined if `async function` syntax is unsupported.",
+	"main": "./",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/make-async-function.git"
+	},
+	"keywords": [
+		"async function",
+		"async",
+		"function",
+		"ES2017",
+		"ES8",
+		"ES7",
+		"ES6",
+		"promise",
+		"await"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/make-async-function/issues"
+	},
+	"homepage": "https://github.com/ljharb/make-async-function#readme"
+}
