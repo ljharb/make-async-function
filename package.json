@@ -1,6 +1,6 @@
 {
 	"name": "make-async-function",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Function that returns an arbitrary `async function`, or undefined if `async function` syntax is unsupported.",
 	"main": "./",
 	"scripts": {
