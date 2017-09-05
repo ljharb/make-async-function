@@ -4,6 +4,8 @@
 	"description": "Function that returns an arbitrary `async function`, or undefined if `async function` syntax is unsupported.",
 	"main": "./",
 	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -26,5 +28,9 @@
 	"bugs": {
 		"url": "https://github.com/ljharb/make-async-function/issues"
 	},
-	"homepage": "https://github.com/ljharb/make-async-function#readme"
+	"homepage": "https://github.com/ljharb/make-async-function#readme",
+	"devDependencies": {
+		"@ljharb/eslint-config": "^12.2.1",
+		"eslint": "^4.6.1"
+	}
 }
