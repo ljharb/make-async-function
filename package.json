@@ -9,8 +9,7 @@
 		"pretest": "npm run lint",
 		"tests-only": "node test",
 		"test": "npm run tests-only",
-		"posttest": "npm run security",
-		"security": "nsp check",
+		"posttest": "npx aud",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
@@ -42,7 +41,6 @@
 		"@ljharb/eslint-config": "^12.2.1",
 		"auto-changelog": "^1.16.2",
 		"eslint": "^4.6.1",
-		"nsp": "^2.7.0",
 		"safe-publish-latest": "^1.1.1",
 		"tape": "^4.8.0"
 	},
