@@ -39,12 +39,12 @@
 	},
 	"homepage": "https://github.com/ljharb/make-async-function#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.3.0",
-		"aud": "^1.1.3",
+		"@ljharb/eslint-config": "^17.6.0",
+		"aud": "^1.1.5",
 		"auto-changelog": "^2.2.1",
-		"eslint": "^7.16.0",
+		"eslint": "^7.26.0",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.1.0"
+		"tape": "^5.2.2"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
