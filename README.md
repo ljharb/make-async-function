@@ -1,5 +1,7 @@
 # make-async-function <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -36,4 +38,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/make-async-function.svg
 [downloads-url]: https://npm-stat.com/charts.html?package=make-async-function
-
+[codecov-image]: https://codecov.io/gh/ljharb/make-async-function/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/ljharb/make-async-function/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/ljharb/make-async-function
+[actions-url]: https://github.com/ljharb/make-async-function/actions
