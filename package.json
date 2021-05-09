@@ -4,7 +4,8 @@
 	"description": "Function that returns an arbitrary `async function`, or undefined if `async function` syntax is unsupported.",
 	"main": "./",
 	"scripts": {
-		"prepublish": "safe-publish-latest",
+		"prepublishOnly": "safe-publish-latest",
+		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
 		"tests-only": "tape 'tests/**/*.js'",
