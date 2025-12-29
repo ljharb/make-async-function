@@ -40,5 +40,5 @@ Simply clone the repo, `npm install`, and run `npm test`
 [downloads-url]: https://npm-stat.com/charts.html?package=make-async-function
 [codecov-image]: https://codecov.io/gh/ljharb/make-async-function/branch/main/graphs/badge.svg
 [codecov-url]: https://app.codecov.io/gh/ljharb/make-async-function/
-[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/ljharb/make-async-function
+[actions-image]: https://img.shields.io/github/check-runs/ljharb/make-async-function/main
 [actions-url]: https://github.com/ljharb/make-async-function/actions
